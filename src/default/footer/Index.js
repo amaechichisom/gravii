@@ -76,7 +76,7 @@ function Footer() {
             </div>
 
         <div className='flex justify-between items-start md:items-center sm:flex-row py-6 border-t border-footer-color'>
-            <p className='text-white-fade text-xs md:text-sm mb-4 md:mb-0'>Copyright 2018. <span className='text-primary'>Gravii.</span><span className='text-black'>ng.</span> All rights reserved</p>
+            <p className='text-white-fade text-xs md:text-sm mb-4 md:mb-0'>Copyright 2018. <span className='text-primary'>Gravii.</span><span className='text-black font-bold'>ng.</span> All rights reserved</p>
 
             
         </div>
