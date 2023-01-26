@@ -86,7 +86,7 @@ function Header() {
 
         <div className={`${sidebar ? "sidebar  active" : "sidebar"} bg-primary-cream`} >
             {/* <div className='span__pseudo' onClick={() => setSidebar(!sidebar)}></div> */}
-            <div className={`flex bg-primary-cream  w-5/6 ${fixed ? "fixed backdrop-blur-md bg-white/90 z-40": "absolute top-0 left-0 bg-transparent"} border-b border-border-color justify-between items-center px-6 md:px-12 lg:px-24 xl:px-32 py-4 lg:py-8`}>
+            <div className={`flex bg-primary-cream  ${fixed ? "fixed backdrop-blur-md bg-white/40 z-40 ": "absolute top-0 left-0 bg-transparent"} border-b border-border-color justify-between items-center px-6 md:px-12 lg:px-24 xl:px-32 py-4 lg:py-8`}>
                 <img src={images.logo[0]} alt={images.logo[1]}/>
                 <Icons.VscChromeClose
                         className="sidebar-toggle-logo z-50 transition text-primary-black"
