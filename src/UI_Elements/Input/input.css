@@ -1,0 +1,9 @@
+.input_button:focus{
+    border-color:var(--primary);
+    outline: var(--primary);
+}
+
+#total{
+    padding: 10px;
+    margin-left: 5px;
+  }

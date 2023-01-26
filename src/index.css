@@ -1,7 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --primary:"#FF7008";
+  --black:"#000000";
+  --primary-cream:"#F8F8F8";
+  --border-color:"#D1D1D1"
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+
+  /*1rem = 10px; 10px/16px = 62.5% */
+  /* font-size: 62.5%; */
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.3);
+  background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar {
+  height: 2px !important;
+  width: 2px !important;
+  background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--primary);
+  border: 1px solid #555555;
+}
+
+::selection {
+  background-color: var(--primary);
+  color: white;
+}
+
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: "Roboto",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -10,4 +60,14 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.flex__center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text__45{
+  font-size: 45px;
 }

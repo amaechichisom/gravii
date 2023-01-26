@@ -1,0 +1,21 @@
+
+  
+  .sidenav-item {
+    list-style: none;
+
+  }
+  
+  .sidenav-item a {
+    text-decoration: none;
+    color: var(--white-fade);
+    cursor: pointer;
+    font-weight: 400;
+    transition: 0.2s all ease-out;
+
+  }
+  
+  .sidenav-item a:hover {
+    color: var(--white-fade);
+  }
+  
+  
