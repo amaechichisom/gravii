@@ -18,9 +18,9 @@ function Footer() {
         <div className='flex justify-between items-start lg:items-center flex-col lg:flex-row py-8 md:py-12 '>
 
             {/* logo section */}
-            <div className='grid grid-cols-3 w-full'>
+            <div className='grid grid-cols-1 md:grid-cols-3 w-full'>
                 <img src={images.logo[0]} alt={images.logo[1]}/>
-                <ul className='md:grid md:grid-cols-1 flex flex-row'>
+                <ul className='md:grid md:grid-cols-1 my-4 md:my-0'>
                         <li className='font-bold mb-4'>Get Started</li>
                         {navItems.map((item) => {
                             return (
@@ -32,7 +32,7 @@ function Footer() {
                     }
                 </ul>
 
-                <ul className='md:grid md:grid-cols-1 flex flex-row'>
+                <ul className='md:grid md:grid-cols-1 '>
                     <li className='font-bold mb-4'>Platforms</li>
                         {platforms.map((item) => {
                             return (
@@ -49,7 +49,7 @@ function Footer() {
             <form onSubmit={onSubscribeEmail} className="mt-8 lg:mt-0">
                 <p className='font-bold mb-4'>Newsletter</p>
 
-                <p className={`text-black-fade text-sm `}>Get curated content and design inspiration delivered straight to your inbox. Learn more</p>
+                <p className={`text-black-fade text-sm mb-4`}>Get curated content and design inspiration delivered straight to your inbox. Learn more</p>
 
                 <div className='flex justify-start items-center mt-2 md:mt-4'>
                     <input 
