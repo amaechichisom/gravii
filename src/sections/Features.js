@@ -5,7 +5,7 @@ import Hoc from '../components/hoc/Hoc'
 
 function Features() {
   return (
-    <Hoc >
+    <Hoc className="bg-white">
         <div className="py-12">
             <h3 className='text-primary text-center text-xl'>Features</h3>
             <h1 className='text-lg md:text-2xl lg:text-4xl font-bold text-primary-dark text-center mt-2'>Designed with everyone in mind</h1>
